@@ -36,3 +36,26 @@ print(3+4)
 print(3-4)
 print(3*4)
 print(3%4)
+print(10//4)
+print(3**4)
+
+print("Hola"  + str(5))
+
+
+# Tuplas
+
+tupla = [1, 2, 3]
+
+lista = tuple(tupla)
+
+print(lista)
+
+
+# Bucles
+
+tupla = [1, 2, 3]
+for t in tupla:
+    print(t) 
+
+
+

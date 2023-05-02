@@ -1,14 +1,26 @@
+
+
+# Tuplas
 Cosas = ("casa", "puerta", "reloj", "mesa", "silla", "banco", "cuadro", "alfombra")
 Numeros = (1, 2, 3, 4, 55)
 
-print(Cosas)
+print(Cosas[1])
+
+# Result "puerta"
 
 
 # Listas
 
-lista = ["nasser", "black1", "hamid"]
+lista = ["nasser", "black1", "hamid", "black1"]
 
-print(type(lista))
+print(lista[2])
 
-# Resultado <class 'list'>
+# Result "hamid"
+
+
+
+
+
+
+
 

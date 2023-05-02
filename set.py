@@ -1,6 +1,5 @@
-# os elementos repetidos de la lista se eliminan
-unicos = set([3, 5, 6, 1, 5])
-unicos
-{1, 3, 5, 6}
+# Set
+black = set([1, 2, 2, 5, 3])
 
-print(unicos)
+print(black)
+# Resault {1, 2, 3, 5}

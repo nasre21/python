@@ -49,13 +49,16 @@ tupla = [1, 2, 3]
 lista = tuple(tupla)
 
 print(lista)
-
+# este es el resultado (1, 2, 3)
 
 # Bucles
 
 tupla = [1, 2, 3]
 for t in tupla:
     print(t) 
+
+    # Listas
+
 
 
 

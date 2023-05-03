@@ -30,6 +30,10 @@ maximo = max(numeros)
 
 print(maximo)
 
+# min
+minimo = min(numeros)
+print(minimo)
+
 
 
 

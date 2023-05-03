@@ -1,21 +1,36 @@
 
 
 # Tuplas
-Cosas = ("casa", "puerta", "reloj", "mesa", "silla", "banco", "cuadro", "alfombra")
-Numeros = (1, 2, 3, 4, 55)
+cosas = ("casa", "puerta", "reloj", "mesa", "silla", "banco", "cuadro", "alfombra")
+numeros = (1, 2, 3, 4, 5)
 
-print(Cosas[1])
+print(cosas[1])
 
 # Result "puerta"
 
+# count 
+red = numeros.count(3)
+print(red)
 
-# Listas
+# index
+x = cosas.index("casa")
 
-lista = ["nasser", "black1", "hamid", "black1"]
+print(x)
 
-print(lista[2])
+# len
+number =len(numeros)
+print(number)
 
-# Result "hamid"
+# sourted
+l = sorted(cosas)
+print(l)
+
+# max
+maximo = max(numeros)
+
+print(maximo)
+
+
 
 
 

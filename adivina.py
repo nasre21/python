@@ -19,7 +19,13 @@ def adivina_el_numero(x):
 
         if prediccion_black < numero_aleatorio:
                     print("intenta otra vez")
-# num = int(input("escribe un numero: "))
+        elif prediccion_black > numero_aleatorio:
+               print("no intentas")
+
+    print(f"Felicitaciones Advinaste el{numero_aleatorio} corectamente")
+
+
+# num = int(input("escribe un numero:>< "))
 
 # print(type(num))
 
@@ -27,4 +33,3 @@ def adivina_el_numero(x):
 
 # if color == "azul":
 #     print("es azul ")
-

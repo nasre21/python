@@ -1,4 +1,4 @@
-import random 
+import random
 
 
 def adivina_el_numero(x):
@@ -11,7 +11,7 @@ def adivina_el_numero(x):
 
     numero_aleatorio = random.randint(1, x) # Número aleatorio entre 1 y x. 
 
-    prediccion_black =  0
+    prediccion_black = 0
     
     while prediccion_black != numero_aleatorio:
     
@@ -25,11 +25,4 @@ def adivina_el_numero(x):
     print(f"Felicitaciones Advinaste el{numero_aleatorio} corectamente")
 
 
-# num = int(input("escribe un numero:>< "))
-
-# print(type(num))
-
-# color = "azul"
-
-# if color == "azul":
-#     print("es azul ")
+adivina_el_numero(10)

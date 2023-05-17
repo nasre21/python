@@ -1,8 +1,8 @@
 import random
 import string
 
-from palabras import palabras
-from digramas import vidas_diccionario_visual
+from practice.palabras import palabras
+from juegos.digramas import vidas_diccionario_visual
 
 def obtener(palabras):
 
